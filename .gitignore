@@ -1,0 +1,8 @@
+# RubyMine project files
+.idea
+
+# Bootstrap 2.x source files
+bootstrap
+
+# Build directory
+build
