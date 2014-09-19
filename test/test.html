@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Scott Escue">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="../build/bootstrap.css" rel="stylesheet">
+    <link href="../build/bootstrap-responsive.css" rel="stylesheet">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!--[if IE 7]>
+    <script src="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css"></script>
+    <![endif]-->
+
+    <!-- Test page specific styling -->
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="brand">Scott Escue<span class="brand-page-title"> - Blog</span></span>
+
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+
+
+                    <li class="active"><a href="/index.html" class="active">Blog</a></li>
+
+
+                    <li><a href="/about.html">About</a></li>
+
+
+                    <li><a href="/categories.html">Categories</a></li>
+
+
+                    <li><a href="/archive.html">Archive</a></li>
+
+
+                    <li><a href="/tags.html">Tags</a></li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Me <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="//twitter.com/@Carth3l" title="@Carth3l on Twitter"><i
+                                    class="icon-twitter icon-large"></i> Twitter</a></li>
+                            <li><a href="//plus.google.com/114178393306763123570/about"
+                                   title="scott.escue on Google+"><i class="icon-google-plus icon-large"></i>
+                                Google+</a></li>
+                            <li><a href="//www.linkedin.com/pub/scott-escue/13/399/b34" title="Scott Escue on LinkedIn"><i
+                                    class="icon-linkedin icon-large"></i> LinkedIn</a></li>
+                            <li><a href="mailto:scott.escue@gmail.com" title="scott.escue@gmail.com"><i
+                                    class="icon-envelope icon-large"></i> Email</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid hero-header mobile-padded">
+    <div class="row-fluid">
+        <div class="span12 content">
+            <h1>Welcome to my Blog</h1>
+
+            <p class="lead">Soon to be full of tips, tricks, self-centered musings, and caffeine-addled rants.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mobile-padded">
+    <div class="row-fluid">
+        <div class="span9 blog-main">
+
+            <section class="blog-post">
+                <a href="/overview/2014/05/27/creating-a-static-site-using-jekyll">
+                    <h2 class="blog-post-title">Creating a Static Site Using Jekyll
+                        <small>In other words, 'How I Created this Site'</small>
+                    </h2>
+                </a>
+
+                <p class="blog-post-meta">27 May 2014 by <a href="/index.html">Scott</a></p>
+
+                <p>This is a discussion on how I use Jekyll to generate this static blog. There are several great
+                    tutorials on how to get started with Jekyll, so I&#39;m going to hit the high points of my setup
+                    without going into great
+                    detail on how to use Jekyll.</p>
+
+            </section>
+
+
+        </div>
+        <!-- /.blog-main -->
+
+        <div class="span3">
+            <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                    <li class="nav-header">Archives</li>
+
+
+                    <li><a href="/archive.html#May2014">May 2014</a></li>
+
+
+                    <li class="nav-header">Categories</li>
+
+
+                    <li><a href="/categories.html#overview-ref">
+                        overview <span class="badge pull-right">1</span>
+                    </a></li>
+
+
+                    <li class="nav-header">Tags</li>
+
+
+                    <li><a href="/tags.html#static site-ref">static site <span class="badge pull-right">1</span></a>
+                    </li>
+
+                    <li><a href="/tags.html#amazon s3-ref">amazon s3 <span class="badge pull-right">1</span></a></li>
+
+                    <li><a href="/tags.html#amazon cloudfront-ref">amazon cloudfront <span
+                            class="badge pull-right">1</span></a></li>
+
+                    <li><a href="/tags.html#jekyll-ref">jekyll <span class="badge pull-right">1</span></a></li>
+
+                    <li><a href="/tags.html#continuous build-ref">continuous build <span
+                            class="badge pull-right">1</span></a></li>
+
+                    <li><a href="/tags.html#continuous deployment-ref">continuous deployment <span
+                            class="badge pull-right">1</span></a></li>
+
+
+                </ul>
+            </div>
+            <!--/.well -->
+        </div>
+        <!--/span-->
+    </div>
+    <!-- /.row -->
+</div>
+<div class="container-fluid mobile-padded">
+    <hr>
+    <footer>
+        <p>&copy; 2014 Scott Escue. All rights reserved.</p>
+    </footer>
+</div>
+<!--/.fluid-container-->
+
+<!-- JavaScript Includes -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
